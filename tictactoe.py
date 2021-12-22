@@ -16,7 +16,7 @@ def placed_x_1():
     global x_image_1
     global x_label_1
 
-    x_image_1 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_barlow.png")
+    x_image_1 = PhotoImage(file="Images/x_barlow.png")
     x_label_1 = Label(root, image=x_image_1, bg="#151326")
     x_label_1.pack()
     x_label_1.place(x=204, y=117, anchor=CENTER)
@@ -30,7 +30,7 @@ def placed_x_2():
     global x_image_2
     global x_label_2
 
-    x_image_2 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_barlow.png")
+    x_image_2 = PhotoImage(file="Images/x_barlow.png")
     x_label_2 = Label(root, image=x_image_2, bg="#151326")
     x_label_2.pack()
     x_label_2.place(x=337.5, y=117, anchor=CENTER)
@@ -44,7 +44,7 @@ def placed_x_3():
     global x_image_3
     global x_label_3
 
-    x_image_3 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_barlow.png")
+    x_image_3 = PhotoImage(file="Images/x_barlow.png")
     x_label_3 = Label(root, image=x_image_3, bg="#151326")
     x_label_3.pack()
     x_label_3.place(x=471, y=117, anchor=CENTER)
@@ -58,7 +58,7 @@ def placed_x_4():
     global x_image_4
     global x_label_4
 
-    x_image_4 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_barlow.png")
+    x_image_4 = PhotoImage(file="Images/x_barlow.png")
     x_label_4 = Label(root, image=x_image_4, bg="#151326")
     x_label_4.pack()
     x_label_4.place(x=204, y=250, anchor=CENTER)
@@ -72,7 +72,7 @@ def placed_x_5():
     global x_image_5
     global x_label_5
 
-    x_image_5 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_barlow.png")
+    x_image_5 = PhotoImage(file="Images/x_barlow.png")
     x_label_5 = Label(root, image=x_image_5, bg="#151326")
     x_label_5.pack()
     x_label_5.place(x=337.5, y=250, anchor=CENTER)
@@ -86,7 +86,7 @@ def placed_x_6():
     global x_image_6
     global x_label_6
 
-    x_image_6 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_barlow.png")
+    x_image_6 = PhotoImage(file="Images/x_barlow.png")
     x_label_6 = Label(root, image=x_image_6, bg="#151326")
     x_label_6.pack()
     x_label_6.place(x=471, y=250, anchor=CENTER)
@@ -100,7 +100,7 @@ def placed_x_7():
     global x_image_7
     global x_label_7
 
-    x_image_7 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_barlow.png")
+    x_image_7 = PhotoImage(file="Images/x_barlow.png")
     x_label_7 = Label(root, image=x_image_7, bg="#151326")
     x_label_7.pack()
     x_label_7.place(x=204, y=383, anchor=CENTER)
@@ -114,7 +114,7 @@ def placed_x_8():
     global x_image_8
     global x_label_8
 
-    x_image_8 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_barlow.png")
+    x_image_8 = PhotoImage(file="Images/x_barlow.png")
     x_label_8 = Label(root, image=x_image_8, bg="#151326")
     x_label_8.pack()
     x_label_8.place(x=337.5, y=383, anchor=CENTER)
@@ -128,7 +128,7 @@ def placed_x_9():
     global x_image_9
     global x_label_9
 
-    x_image_9 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_barlow.png")
+    x_image_9 = PhotoImage(file="Images/x_barlow.png")
     x_label_9 = Label(root, image=x_image_9, bg="#151326")
     x_label_9.pack()
     x_label_9.place(x=471, y=383, anchor=CENTER)
@@ -467,63 +467,63 @@ def cpu_execution(spot, cpu_win):
     print('O is placed on ' + str(spot))
 
     if spot == 1:
-        o_image_1 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_barlow.png")
+        o_image_1 = PhotoImage(file="Images/o_barlow.png")
         o_label_1 = Label(root, image=o_image_1, bg="#151326")
         o_label_1.pack()
         o_label_1.place(x=204, y=117, anchor=CENTER)
         blank_button_1.place_forget()
         current_board_pieces[1] = 'o'
     elif spot == 2:
-        o_image_2 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_barlow.png")
+        o_image_2 = PhotoImage(file="Images/o_barlow.png")
         o_label_2 = Label(root, image=o_image_2, bg="#151326")
         o_label_2.pack()
         o_label_2.place(x=337.5, y=117, anchor=CENTER)
         blank_button_2.place_forget()
         current_board_pieces[2] = 'o'
     elif spot == 3:
-        o_image_3 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_barlow.png")
+        o_image_3 = PhotoImage(file="Images/o_barlow.png")
         o_label_3 = Label(root, image=o_image_3, bg="#151326")
         o_label_3.pack()
         o_label_3.place(x=471, y=117, anchor=CENTER)
         blank_button_3.place_forget()
         current_board_pieces[3] = 'o'
     elif spot == 4:
-        o_image_4 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_barlow.png")
+        o_image_4 = PhotoImage(file="Images/o_barlow.png")
         o_label_4 = Label(root, image=o_image_4, bg="#151326")
         o_label_4.pack()
         o_label_4.place(x=204, y=250, anchor=CENTER)
         blank_button_4.place_forget()
         current_board_pieces[4] = 'o'
     elif spot == 5:
-        o_image_5 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_barlow.png")
+        o_image_5 = PhotoImage(file="Images/o_barlow.png")
         o_label_5 = Label(root, image=o_image_5, bg="#151326")
         o_label_5.pack()
         o_label_5.place(x=337.5, y=250, anchor=CENTER)
         blank_button_5.place_forget()
         current_board_pieces[5] = 'o'
     elif spot == 6:
-        o_image_6 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_barlow.png")
+        o_image_6 = PhotoImage(file="Images/o_barlow.png")
         o_label_6 = Label(root, image=o_image_6, bg="#151326")
         o_label_6.pack()
         o_label_6.place(x=471, y=250, anchor=CENTER)
         blank_button_6.place_forget()
         current_board_pieces[6] = 'o'
     elif spot == 7:
-        o_image_7 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_barlow.png")
+        o_image_7 = PhotoImage(file="Images/o_barlow.png")
         o_label_7 = Label(root, image=o_image_7, bg="#151326")
         o_label_7.pack()
         o_label_7.place(x=204, y=383, anchor=CENTER)
         blank_button_7.place_forget()
         current_board_pieces[7] = 'o'
     elif spot == 8:
-        o_image_8 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_barlow.png")
+        o_image_8 = PhotoImage(file="Images/o_barlow.png")
         o_label_8 = Label(root, image=o_image_8, bg="#151326")
         o_label_8.pack()
         o_label_8.place(x=337.5, y=383, anchor=CENTER)
         blank_button_8.place_forget()
         current_board_pieces[8] = 'o'
     elif spot == 9:
-        o_image_9 = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_barlow.png")
+        o_image_9 = PhotoImage(file="Images/o_barlow.png")
         o_label_9 = Label(root, image=o_image_9, bg="#151326")
         o_label_9.pack()
         o_label_9.place(x=471, y=383, anchor=CENTER)
@@ -585,7 +585,7 @@ def difficulty_change(difficulty_cmd):
     difficulty = difficulty_cmd
 
     if difficulty_cmd == 'Easy':
-        easy_active_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/easy_active.png")
+        easy_active_image = PhotoImage(file="Images/easy_active.png")
         easy_active_label = Label(root, image=easy_active_image, bg="#151326")
         easy_active_label.pack()
         easy_active_label.place(x=127.5, y=500, anchor=CENTER)
@@ -604,7 +604,7 @@ def difficulty_change(difficulty_cmd):
             pass
 
     elif difficulty_cmd == 'Medium':
-        medium_active_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/medium_active.png")
+        medium_active_image = PhotoImage(file="Images/medium_active.png")
         medium_active_label = Label(root, image=medium_active_image, bg="#151326")
         medium_active_label.pack()
         medium_active_label.place(x=267.5, y=500, anchor=CENTER)
@@ -623,7 +623,7 @@ def difficulty_change(difficulty_cmd):
             pass
 
     elif difficulty_cmd == 'Hard':
-        hard_active_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/hard_active.png")
+        hard_active_image = PhotoImage(file="Images/hard_active.png")
         hard_active_label = Label(root, image=hard_active_image, bg="#151326")
         hard_active_label.pack()
         hard_active_label.place(x=407.5, y=500, anchor=CENTER)
@@ -642,7 +642,7 @@ def difficulty_change(difficulty_cmd):
             pass
 
     elif difficulty_cmd == 'Impossible':
-        impossible_active_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/impossible_active.png")
+        impossible_active_image = PhotoImage(file="Images/impossible_active.png")
         impossible_active_label = Label(root, image=impossible_active_image, bg="#151326")
         impossible_active_label.pack()
         impossible_active_label.place(x=547.5, y=500, anchor=CENTER)
@@ -877,7 +877,7 @@ def change_fm(new_fm):
     first_move = new_fm
 
     if new_fm == 'x':
-        x_first_move_image_active = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_first_move_active.png")
+        x_first_move_image_active = PhotoImage(file="Images/x_first_move_active.png")
         x_first_move_label_active = Label(root, image=x_first_move_image_active, bg="#151326")
         x_first_move_label_active.pack()
         x_first_move_label_active.place(x=207.5, y=300, anchor=CENTER)
@@ -890,7 +890,7 @@ def change_fm(new_fm):
         toggle_move_button.configure(image=x_first_move_image)
 
     elif new_fm == 'o':
-        o_first_move_image_active = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_first_move_active.png")
+        o_first_move_image_active = PhotoImage(file="Images/o_first_move_active.png")
         o_first_move_label_active = Label(root, image=o_first_move_image_active, bg="#151326")
         o_first_move_label_active.pack()
         o_first_move_label_active.place(x=467.5, y=300, anchor=CENTER)
@@ -954,70 +954,70 @@ ties = 0
 losses = 0
 slide_func_counter = 0
 
-board_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/board.png")
+board_image = PhotoImage(file="Images/board.png")
 board_label = Label(root, image=board_image, bg="#151326")
 board_label.pack()
 board_label.place(x=337.5, y=250, anchor=CENTER)
 
-blank_button_1_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/blank_square_button.png")
+blank_button_1_image = PhotoImage(file="Images/blank_square_button.png")
 blank_button_1 = Button(root, image=blank_button_1_image, highlightbackground="#151326", padx = 0, pady = 0, command=placed_x_1)
 blank_button_1.place(x=204, y=117, anchor=CENTER)
 
-blank_button_2_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/blank_square_button.png")
+blank_button_2_image = PhotoImage(file="Images/blank_square_button.png")
 blank_button_2 = Button(root, image=blank_button_2_image, highlightbackground="#151326", padx = 0, pady = 0, command=placed_x_2)
 blank_button_2.place(x=337.5, y=117, anchor=CENTER)
 
-blank_button_3_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/blank_square_button.png")
+blank_button_3_image = PhotoImage(file="Images/blank_square_button.png")
 blank_button_3 = Button(root, image=blank_button_3_image, highlightbackground="#151326", padx = 0, pady = 0, command=placed_x_3)
 blank_button_3.place(x=471, y=117, anchor=CENTER)
 
-blank_button_4_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/blank_square_button.png")
+blank_button_4_image = PhotoImage(file="Images/blank_square_button.png")
 blank_button_4 = Button(root, image=blank_button_4_image, highlightbackground="#151326", padx = 0, pady = 0, command=placed_x_4)
 blank_button_4.place(x=204, y=250, anchor=CENTER)
 
-blank_button_5_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/blank_square_button.png")
+blank_button_5_image = PhotoImage(file="Images/blank_square_button.png")
 blank_button_5 = Button(root, image=blank_button_5_image, highlightbackground="#151326", padx = 0, pady = 0, command=placed_x_5)
 blank_button_5.place(x=337.5, y=250, anchor=CENTER)
 
-blank_button_6_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/blank_square_button.png")
+blank_button_6_image = PhotoImage(file="Images/blank_square_button.png")
 blank_button_6 = Button(root, image=blank_button_6_image, highlightbackground="#151326", padx = 0, pady = 0, command=placed_x_6)
 blank_button_6.place(x=471, y=250, anchor=CENTER)
 
-blank_button_7_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/blank_square_button.png")
+blank_button_7_image = PhotoImage(file="Images/blank_square_button.png")
 blank_button_7 = Button(root, image=blank_button_7_image, highlightbackground="#151326", padx = 0, pady = 0, command=placed_x_7)
 blank_button_7.place(x=204, y=383, anchor=CENTER)
 
-blank_button_8_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/blank_square_button.png")
+blank_button_8_image = PhotoImage(file="Images/blank_square_button.png")
 blank_button_8 = Button(root, image=blank_button_8_image, highlightbackground="#151326", padx = 0, pady = 0, command=placed_x_8)
 blank_button_8.place(x=337.5, y=383, anchor=CENTER)
 
-blank_button_9_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/blank_square_button.png")
+blank_button_9_image = PhotoImage(file="Images/blank_square_button.png")
 blank_button_9 = Button(root, image=blank_button_9_image, highlightbackground="#151326", padx = 0, pady = 0, command=placed_x_9)
 blank_button_9.place(x=471, y=383, anchor=CENTER)
 
-easy_difficulty_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/diff_easy.png")
+easy_difficulty_image = PhotoImage(file="Images/diff_easy.png")
 easy_button = Button(root, image=easy_difficulty_image, highlightbackground="#151326", padx = 0, pady = 0, command=lambda: difficulty_change('Easy'))
 easy_button.place(x=127.5, y=500, anchor=CENTER)
 
-med_difficulty_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/diff_medium.png")
+med_difficulty_image = PhotoImage(file="Images/diff_medium.png")
 med_button = Button(root, image=med_difficulty_image, highlightbackground="#151326", padx = 0, pady = 0, command=lambda: difficulty_change('Medium'))
 med_button.place(x=267.5, y=500, anchor=CENTER)
 
-hard_difficulty_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/diff_hard.png")
+hard_difficulty_image = PhotoImage(file="Images/diff_hard.png")
 hard_button = Button(root, image=hard_difficulty_image, highlightbackground="#151326", padx = 0, pady = 0, command=lambda: difficulty_change('Hard'))
 hard_button.place(x=407.5, y=500, anchor=CENTER)
 
-impossible_difficulty_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/diff_impossible.png")
+impossible_difficulty_image = PhotoImage(file="Images/diff_impossible.png")
 impossible_button = Button(root, image=impossible_difficulty_image, highlightbackground="#151326", padx = 0, pady = 0, command=lambda: difficulty_change("Impossible"))
 impossible_button.place(x=547.5, y=500, anchor=CENTER)
 
-clear_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/clear.png")
-forfeit_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/forfeit.png")
+clear_image = PhotoImage(file="Images/clear.png")
+forfeit_image = PhotoImage(file="Images/forfeit.png")
 forfeit_button = Button(root, image=forfeit_image, highlightbackground="#151326", padx = 0, pady = 0, command=forfeit_game)
 forfeit_button.place(x=63, y=587, anchor=CENTER)
 
-x_first_move_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/first_move_x.png")
-o_first_move_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/first_move_o.png")
+x_first_move_image = PhotoImage(file="Images/first_move_x.png")
+o_first_move_image = PhotoImage(file="Images/first_move_o.png")
 toggle_move_button = Button(root, image=x_first_move_image, highlightbackground="#151326", padx = 0, pady = 0, command=toggle_first_move)
 toggle_move_button.place(x=612, y=587, anchor=CENTER)
 
@@ -1037,7 +1037,7 @@ record_descriptor.place(x=337.5, y=625, anchor=CENTER)
 # tie_descriptor = Label(root, text='Ties', bg="#151326", fg='#666666', font=('System', 15))
 # tie_descriptor.place(x=451, y=625, anchor=CENTER)
 
-cover_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/cover_image.png")
+cover_image = PhotoImage(file="Images/cover_image.png")
 cover_label = Label(root, image=cover_image, highlightbackground="#151326", bg="#151326", padx=0, pady=0)
 cover_label.place(x=0, y=0, anchor=NW)
 # highlightbackground="#151326"
@@ -1045,44 +1045,44 @@ cover_label.place(x=0, y=0, anchor=NW)
 difficulty = None
 first_move = None
 
-easy_difficulty_image_front = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/diff_easy.png")
+easy_difficulty_image_front = PhotoImage(file="Images/diff_easy.png")
 easy_button_front = Button(root, image=easy_difficulty_image, highlightbackground="#151326", padx = 0, pady = 0, command=lambda: difficulty_change('Easy'))
 easy_button_front.place(x=127.5, y=500, anchor=CENTER)
 
-med_difficulty_image_front = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/diff_medium.png")
+med_difficulty_image_front = PhotoImage(file="Images/diff_medium.png")
 med_button_front = Button(root, image=med_difficulty_image, highlightbackground="#151326", padx = 0, pady = 0, command=lambda: difficulty_change('Medium'))
 med_button_front.place(x=267.5, y=500, anchor=CENTER)
 
-hard_difficulty_image_front = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/diff_hard.png")
+hard_difficulty_image_front = PhotoImage(file="Images/diff_hard.png")
 hard_button_front = Button(root, image=hard_difficulty_image, highlightbackground="#151326", padx = 0, pady = 0, command=lambda: difficulty_change('Hard'))
 hard_button_front.place(x=407.5, y=500, anchor=CENTER)
 
-impossible_difficulty_image_front = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/diff_impossible.png")
+impossible_difficulty_image_front = PhotoImage(file="Images/diff_impossible.png")
 impossible_button_front = Button(root, image=impossible_difficulty_image, highlightbackground="#151326", padx = 0, pady = 0, command=lambda: difficulty_change("Impossible"))
 impossible_button_front.place(x=547.5, y=500, anchor=CENTER)
 
-submit_choices_err_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/submit_customs_err.png")
-submit_choices_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/submit_customs.png")
+submit_choices_err_image = PhotoImage(file="Images/submit_customs_err.png")
+submit_choices_image = PhotoImage(file="Images/submit_customs.png")
 submit_choices_button = Button(root, image=submit_choices_image, bg='#151326', highlightbackground="#151326", pady=0, padx=0, command=lambda: check_choices_valid())
 submit_choices_button.place(x=337.5, y=600, anchor=CENTER)
 
-select_difficulty_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/select_difficulty.png")
+select_difficulty_image = PhotoImage(file="Images/select_difficulty.png")
 select_difficulty_label = Label(root, image=select_difficulty_image, highlightbackground="#151326", bg="#151326")
 select_difficulty_label.place(x=337.5, y=450, anchor=CENTER)
 
-select_first_move_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/select_first_move.png")
+select_first_move_image = PhotoImage(file="Images/select_first_move.png")
 select_first_move_label = Label(root, image=select_first_move_image, highlightbackground="#151326", bg="#151326")
 select_first_move_label.place(x=337.5, y=250, anchor=CENTER)
 
-x_first_move_image_front = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/x_first_move.png")
+x_first_move_image_front = PhotoImage(file="Images/x_first_move.png")
 x_first_move_label_front = Button(root, image=x_first_move_image_front, highlightbackground="#151326", bg="#151326", padx=0, pady=0, command=lambda: change_fm('x'))
 x_first_move_label_front.place(x=207.5, y=300, anchor=CENTER)
 
-o_first_move_image_front = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/o_first_move.png")
+o_first_move_image_front = PhotoImage(file="Images/o_first_move.png")
 o_first_move_label_front = Button(root, image=o_first_move_image_front, highlightbackground="#151326", bg="#151326", padx=0, pady=0, command=lambda: change_fm('o'))
 o_first_move_label_front.place(x=467.5, y=300, anchor=CENTER)
 
-ttt_title_image = PhotoImage(file="Desktop/Miscellaneous/Python Images/TicTacToe/tictactoe.png")
+ttt_title_image = PhotoImage(file="Images/tictactoe.png")
 ttt_title = Label(root, image=ttt_title_image, highlightbackground="#151326", bg="#151326")
 ttt_title.place(x=337.5, y=75, anchor=CENTER)
 
