@@ -22,8 +22,7 @@ Check out the [video demonstration](https://www.youtube.com/watch?v=bFMxZmELC0g)
 ```git clone https://github.com/andrewderango/TicTacToe.git```\
 ```cd TicTacToe```
 
-2. Run the game.\
-```python TicTacToe.py```
+2. Run the game by executing the program.
 3. Play against the computer by choosing your preferred difficulty and who goes first.
 4. Enjoy the game, and try to beat the unbeatable "Impossible" difficulty!
 
