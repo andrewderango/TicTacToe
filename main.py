@@ -13,8 +13,7 @@ winning_possibilities = [[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,9]
 current_board_pieces = {1:None, 2:None, 3:None, 4:None, 5:None, 6:None, 7:None, 8:None, 9:None}
 
 def placed_x_1():
-    global x_image_1
-    global x_label_1
+    global x_image_1, x_label_1
 
     x_image_1 = PhotoImage(file="Images/x_barlow.png")
     x_label_1 = Label(root, image=x_image_1, bg="#151326")
@@ -27,8 +26,7 @@ def placed_x_1():
     check_win_user(True, True)
 
 def placed_x_2():
-    global x_image_2
-    global x_label_2
+    global x_image_2, x_label_2
 
     x_image_2 = PhotoImage(file="Images/x_barlow.png")
     x_label_2 = Label(root, image=x_image_2, bg="#151326")
@@ -41,8 +39,7 @@ def placed_x_2():
     check_win_user(True, True)
 
 def placed_x_3():
-    global x_image_3
-    global x_label_3
+    global x_image_3, x_label_3
 
     x_image_3 = PhotoImage(file="Images/x_barlow.png")
     x_label_3 = Label(root, image=x_image_3, bg="#151326")
@@ -55,8 +52,7 @@ def placed_x_3():
     check_win_user(True, True)
 
 def placed_x_4():
-    global x_image_4
-    global x_label_4
+    global x_image_4, x_label_4
 
     x_image_4 = PhotoImage(file="Images/x_barlow.png")
     x_label_4 = Label(root, image=x_image_4, bg="#151326")
@@ -69,8 +65,7 @@ def placed_x_4():
     check_win_user(True, True)
 
 def placed_x_5():
-    global x_image_5
-    global x_label_5
+    global x_image_5, x_label_5
 
     x_image_5 = PhotoImage(file="Images/x_barlow.png")
     x_label_5 = Label(root, image=x_image_5, bg="#151326")
@@ -83,8 +78,7 @@ def placed_x_5():
     check_win_user(True, True)
 
 def placed_x_6():
-    global x_image_6
-    global x_label_6
+    global x_image_6, x_label_6
 
     x_image_6 = PhotoImage(file="Images/x_barlow.png")
     x_label_6 = Label(root, image=x_image_6, bg="#151326")
@@ -97,8 +91,7 @@ def placed_x_6():
     check_win_user(True, True)
 
 def placed_x_7():
-    global x_image_7
-    global x_label_7
+    global x_image_7, x_label_7
 
     x_image_7 = PhotoImage(file="Images/x_barlow.png")
     x_label_7 = Label(root, image=x_image_7, bg="#151326")
@@ -111,8 +104,7 @@ def placed_x_7():
     check_win_user(True, True)
 
 def placed_x_8():
-    global x_image_8
-    global x_label_8
+    global x_image_8, x_label_8
 
     x_image_8 = PhotoImage(file="Images/x_barlow.png")
     x_label_8 = Label(root, image=x_image_8, bg="#151326")
@@ -125,8 +117,7 @@ def placed_x_8():
     check_win_user(True, True)
 
 def placed_x_9():
-    global x_image_9
-    global x_label_9
+    global x_image_9, x_label_9
 
     x_image_9 = PhotoImage(file="Images/x_barlow.png")
     x_label_9 = Label(root, image=x_image_9, bg="#151326")
@@ -139,9 +130,7 @@ def placed_x_9():
     check_win_user(True, True)
 
 def check_win_user(score_adj, next_turn):
-    global wins
-    global losses
-    global ties
+    global wins, losses, ties
 
     win_exists = False
     for winning_possibility_ticker in winning_possibilities:
@@ -275,8 +264,7 @@ def minimax(state, depth, player):
         return best
 
 def cpu_turn():
-    global difficulty
-    global simulations
+    global difficulty, simulations
 
     simulations = 0
 
@@ -435,25 +423,8 @@ def cpu_turn():
         
 
 def cpu_execution(spot, cpu_win):
-    global o_image_1
-    global o_image_2
-    global o_image_3
-    global o_image_4
-    global o_image_5
-    global o_image_6
-    global o_image_7
-    global o_image_8
-    global o_image_9
-
-    global o_label_1
-    global o_label_2
-    global o_label_3
-    global o_label_4
-    global o_label_5
-    global o_label_6
-    global o_label_7
-    global o_label_8
-    global o_label_9
+    global o_image_1, o_image_2, o_image_3, o_image_4, o_image_5, o_image_6, o_image_7, o_image_8, o_image_9
+    global o_label_1, o_label_2, o_label_3, o_label_4, o_label_5, o_label_6, o_label_7, o_label_8, o_label_9
 
     if spot == None:
         global ties
@@ -571,15 +542,7 @@ def cpu_execution(spot, cpu_win):
         forfeit_button.configure(image=clear_image)
 
 def difficulty_change(difficulty_cmd):
-    global difficulty
-    global easy_active_image
-    global easy_active_label
-    global medium_active_image
-    global medium_active_label
-    global hard_active_image
-    global hard_active_label
-    global impossible_active_image
-    global impossible_active_label
+    global difficulty, easy_active_image, easy_active_label, medium_active_image, medium_active_label, hard_active_image, hard_active_label, impossible_active_image, impossible_active_label
 
     print('Difficulty has been changed to ' + str(difficulty_cmd))
     difficulty = difficulty_cmd
@@ -661,26 +624,9 @@ def difficulty_change(difficulty_cmd):
             pass
 
 def forfeit_game():
-    global x_label_1
-    global x_label_2
-    global x_label_3
-    global x_label_4
-    global x_label_5
-    global x_label_6
-    global x_label_7
-    global x_label_8
-    global x_label_9
-    global o_label_1
-    global o_label_2
-    global o_label_3
-    global o_label_4
-    global o_label_5
-    global o_label_6
-    global o_label_7
-    global o_label_8
-    global o_label_9
-    global current_board_pieces
-    global ties
+    global x_label_1, x_label_2, x_label_3, x_label_4, x_label_5, x_label_6, x_label_7, x_label_8, x_label_9
+    global o_label_1, o_label_2, o_label_3, o_label_4, o_label_5, o_label_6, o_label_7, o_label_8, o_label_9
+    global current_board_pieces, ties
 
     try:
         x_label_1.place_forget()
